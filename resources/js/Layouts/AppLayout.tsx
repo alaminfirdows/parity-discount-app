@@ -259,13 +259,13 @@ export default function AppLayout({
                     <div className="border-t border-theme-200 dark:border-theme-500" />
 
                     {/* <!-- Team Settings --> */}
-                    {/* <DropdownLink
+                    <DropdownLink
                       href={route('teams.show', [
                         page.props.auth.user?.current_team!,
                       ])}
                     >
                       Manage Team
-                    </DropdownLink> */}
+                    </DropdownLink>
                   </>
                 </Dropdown>
               </div>
